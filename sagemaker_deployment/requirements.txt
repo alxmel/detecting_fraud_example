@@ -1,0 +1,8 @@
+# Versions the model was saved with; pickles only load reliably on the same versions.
+scikit-learn==1.9.1
+category-encoders==2.11.1
+pandas==3.0.6
+numpy==2.5.4
+joblib==1.6.0
+# pandas 3 stores text columns via pyarrow, so the pickle needs it too.
+pyarrow==26.0.0

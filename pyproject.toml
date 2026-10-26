@@ -1,0 +1,23 @@
+[project]
+name = "anomalydetector"
+version = "0.1.0"
+description = "Simple example showcasing anomaly detection"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.43.117",
+    "category-encoders>=2.11.1",
+    "fastapi>=0.156.4",
+    "fastmcp>=4.1.1",
+    "ipykernel>=7.4.0",
+    "joblib>=1.6.0",
+    "jupyterlab>=4.6.4",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "pyarrow>=26.0.0",
+    "scikit-learn>=1.9.1",
+    "strands-agents>=1.62",
+    "streamlit>=1.66.1",
+    "uvicorn>=0.54.0",
+]
